@@ -94,7 +94,7 @@
    * color-2(#2F352B)
    * color-3(#1A1A1A)
    */
-    --color-1: hsla(12, 75%, 45%, 1);
+    --color-1: hsl(113, 84%, 34%);
     --color-2: hsla(96, 10%, 19%, 1);
     --color-3: hsla(0, 0%, 10%, 1);
 
@@ -3927,6 +3927,29 @@ td:last-child {
     color      : var(--color-text-light) !important;
 }
 
+.s-about__blocks p{
+    font-size  : var(--text-sm);
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.s-about_inside_list{
+    font-weight: 300;
+    font-size: medium;
+    font-weight: 300;
+    line-height: 1.2;
+    line-height: 15%;
+
+}
+
+.s-about_inside_list ul{
+    list-style:disc;
+}
+
+.s-about_inside_list ul li{
+    font-weight: 300;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * about
@@ -4294,16 +4317,14 @@ td:last-child {
 .ss-copyright {
     margin     : 0 var(--vspace-2) 0 0;
     line-height: var(--vspace-0_875);
+    font-size: smaller;
 }
 
 .ss-copyright a {
     color: var(--color-gray-5);
 }
 
-.ss-copyright a:focus,
-.ss-copyright a:hover {
-    color: var(--color-1);
-}
+
 
 .ss-copyright span {
     display: inline-block;
