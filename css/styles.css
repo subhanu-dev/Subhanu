@@ -3937,7 +3937,6 @@ td:last-child {
     font-weight: 300;
     font-size: medium;
     font-weight: 300;
-    line-height: 1.2;
     line-height: 15%;
 
 }
@@ -3948,6 +3947,10 @@ td:last-child {
 
 .s-about_inside_list ul li{
     font-weight: 300;
+}
+
+.aiesec{
+    line-height: 1;
 }
 
 /* ------------------------------------------------------------------- 
