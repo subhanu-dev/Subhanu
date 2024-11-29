@@ -3937,7 +3937,7 @@ td:last-child {
     font-weight: 300;
     font-size: medium;
     font-weight: 300;
-    line-height: 15%;
+    line-height: 20%;
 
 }
 
@@ -3949,9 +3949,22 @@ td:last-child {
     font-weight: 300;
 }
 
-.aiesec{
-    line-height: 1;
+
+@media screen and (max-width: 600px){
+    .s-about_inside_list{
+       
+        line-height: 100%;
+    
+    }
+   
 }
+
+@media screen and (max-width: 800px){
+    .aiesec{
+        line-height: 1;
+    }
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
